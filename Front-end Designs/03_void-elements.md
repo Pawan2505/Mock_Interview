@@ -1,19 +1,16 @@
-What are void elements? Can you give a few examples?
+**Q: What are void elements? Can you give a few examples?**
 
-### **What are Void Elements?**
+**Answer:**
+Void elements are HTML tags that **don’t have a closing tag**. You can’t put any content or other tags inside them—they are self-contained.
 
-Void elements are **HTML elements that do not have a closing tag**. They are self-contained and **cannot have any content or child elements** inside them.
+**Examples:**
 
----
-
-### **Examples of Void Elements:**
-
-* `<img>` – for images
-* `<br>` – line break
-* `<hr>` – horizontal rule
-* `<input>` – form input fields
-* `<meta>` – metadata
-* `<link>` – external resources like CSS
+* `<img>` – to show images
+* `<br>` – to create a line break
+* `<hr>` – a horizontal line
+* `<input>` – input fields in forms
+* `<meta>` – metadata for the page
+* `<link>` – links to external resources like CSS
 
 ---
 

@@ -1,8 +1,9 @@
-### **How to Write `display: flex` Using Bootstrap**
+**Q: How do you write `display: flex` using Bootstrap?**
 
-Bootstrap provides **utility classes** to apply `display: flex` and related properties **without writing custom CSS**.
+**Answer:**
+Bootstrap has **utility classes** that let you use flex without writing custom CSS.
 
-1. **Make an element a flex container:**
+1. **Make a container flex:**
 
 ```html
 <div class="d-flex">
@@ -13,22 +14,19 @@ Bootstrap provides **utility classes** to apply `display: flex` and related prop
 
 * `d-flex` → applies `display: flex`.
 
-2. **Direction of items:**
+2. **Set direction:**
 
 ```html
-<div class="d-flex flex-column"> <!-- Column direction -->
-  <div>Item 1</div>
-  <div>Item 2</div>
-</div>
+<div class="d-flex flex-column">...</div>
 ```
 
-* `flex-column` → vertical stacking (`flex-direction: column`).
-* `flex-row` → horizontal stacking (default, optional).
+* `flex-column` → vertical stack
+* `flex-row` → horizontal stack (default)
 
-3. **Alignment utilities:**
+3. **Align items:**
 
-* `justify-content-start|center|end|between|around` → controls horizontal alignment.
-* `align-items-start|center|end|stretch` → controls vertical alignment.
+* `justify-content-*` → horizontal alignment
+* `align-items-*` → vertical alignment
 
 **Example:**
 
@@ -39,11 +37,8 @@ Bootstrap provides **utility classes** to apply `display: flex` and related prop
 </div>
 ```
 
----
-
-### **Interview Tip:**
-
-"In Bootstrap, `d-flex` replaces `display: flex`, and utility classes like `flex-column`, `justify-content-*`, and `align-items-*` allow you to control the flex layout quickly without custom CSS."
+**Tip:**
+"`d-flex` is flex, and classes like `flex-column`, `justify-content-*`, and `align-items-*` help quickly control layout without CSS."
 
 ---
 

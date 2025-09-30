@@ -1,38 +1,32 @@
-### **What is the Bootstrap Grid System?**
+**Q: What is the Bootstrap Grid System and how does it work?**
 
-The **Bootstrap grid system** is a **responsive, mobile-first layout system** that allows developers to design web pages using a series of rows and columns. It helps create **flexible and adaptive layouts** that adjust automatically across different screen sizes (desktop, tablet, mobile).
+**Answer:**
+The **Bootstrap grid system** is a **mobile-first layout system** that uses **rows and columns** to create flexible, responsive layouts. It helps your page **adjust automatically** on different screen sizes.
 
----
+**How it works:**
 
-### **How It Works**
+1. **Container** – Wraps the content and adds proper padding.
 
-1. **Containers** – Wrap the content and provide proper alignment and padding.
+```html
+<div class="container">...</div>
+```
 
-   ```html
-   <div class="container">...</div>
-   ```
-2. **Rows** – Define horizontal groups of columns.
+2. **Row** – Holds horizontal groups of columns.
 
-   ```html
-   <div class="row">...</div>
-   ```
-3. **Columns** – Divide rows into up to **12 equal parts**. You can combine columns to span multiple parts.
+```html
+<div class="row">...</div>
+```
 
-   ```html
-   <div class="col-6">Half width</div>
-   <div class="col-6">Half width</div>
-   ```
-4. **Responsive Classes** – Bootstrap provides breakpoints like `col-sm-`, `col-md-`, `col-lg-`, `col-xl-` to adjust column sizes for different devices.
+3. **Columns** – Divide the row into up to 12 parts.
 
-   ```html
-   <div class="col-md-4 col-sm-6">Responsive column</div>
-   ```
+```html
+<div class="col-6">Half</div>
+<div class="col-6">Half</div>
+```
 
----
+4. **Responsive classes** – `col-sm-`, `col-md-`, `col-lg-` adjust columns for different devices.
 
-### **Interview Tip:**
-
-"Bootstrap grid system uses a **12-column layout** inside rows and containers, and with responsive classes, it makes designing flexible and mobile-friendly layouts easy."
+**Tip:**
+"Bootstrap grid uses a **12-column layout** with rows and containers to create **flexible, responsive layouts** easily."
 
 ---
-

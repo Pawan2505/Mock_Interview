@@ -1,21 +1,17 @@
-### **Differences between HTML4 and HTML5**
+**Q: What are the differences between HTML4 and HTML5?**
 
-| Feature                 | HTML4                                                                     | HTML5                                                                                |
-| ----------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| **Doctype Declaration** | Long and complex: `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"...>` | Simple: `<!DOCTYPE html>`                                                            |
-| **New Semantic Tags**   | No semantic tags                                                          | Introduced semantic tags like `<header>`, `<footer>`, `<section>`, `<article>`       |
-| **Multimedia Support**  | Requires plugins (like Flash)                                             | Supports audio (`<audio>`) and video (`<video>`) natively                            |
-| **Forms**               | Basic input types                                                         | New input types: `email`, `date`, `number`, `range`, etc.                            |
-| **APIs & Features**     | Limited                                                                   | New APIs like Canvas (`<canvas>`), Web Storage, Geolocation, Drag & Drop, WebSockets |
-| **Error Handling**      | Strict parsing                                                            | More forgiving and flexible parsing                                                  |
-| **Mobile Support**      | Not optimized                                                             | Mobile-friendly and responsive-ready features                                        |
+**Answer:**
 
----
+* **Doctype:** HTML4 has a long, complex doctype, while HTML5 is simple: `<!DOCTYPE html>`.
+* **Semantic tags:** HTML4 has none, but HTML5 added tags like `<header>`, `<footer>`, `<section>`, `<article>`.
+* **Multimedia:** HTML4 needs plugins (Flash), HTML5 supports `<audio>` and `<video>` natively.
+* **Forms:** HTML5 adds new input types like `email`, `date`, `number`, `range`.
+* **APIs:** HTML5 provides Canvas, Web Storage, Geolocation, Drag & Drop, and WebSockets.
+* **Error handling:** HTML5 is more forgiving; HTML4 is strict.
+* **Mobile support:** HTML5 is mobile-friendly; HTML4 isn’t optimized for devices.
 
-### **Interview Tip:**
-
-You can summarize:
-"HTML5 is an improved version of HTML4 that is simpler, supports semantic elements, multimedia, advanced forms, mobile-friendly features, and new APIs, whereas HTML4 was older, less semantic, and relied on plugins for multimedia."
+**Tip:**
+"HTML5 is simpler, semantic, mobile-friendly, and supports multimedia and modern APIs, while HTML4 is older and less flexible."
 
 ---
 

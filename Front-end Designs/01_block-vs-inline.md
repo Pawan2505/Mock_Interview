@@ -1,43 +1,31 @@
-Explain the difference between a block-level and inline element, and how can you force one to behave like the other?
+**Q: Explain the difference between a block-level and inline element, and how can you force one to behave like the other?**
 
+**Answer:**
 
-### **Difference between Block-level and Inline elements**
+* **Block-level elements** always start on a **new line** and take up the **full width** of their container. Examples are `<div>`, `<p>`, and `<h1>` to `<h6>`.
 
-1. **Block-level elements**
+* **Inline elements** stay **in the same line** as other content and only take up as much space as needed. Examples are `<span>`, `<a>`, `<strong>`, and `<em>`.
 
-   * Always start on a **new line**.
-   * Take up the **full width** available (stretch across the container).
-   * Examples: `<div>`, `<p>`, `<h1>–<h6>`, `<section>`.
+**Making one behave like the other:**
 
-2. **Inline elements**
+* Use the CSS `display` property.
 
-   * Do **not start on a new line**.
-   * Only take up as much **width as their content**.
-   * Examples: `<span>`, `<a>`, `<strong>`, `<em>`.
+  * To make an inline element act like a block:
 
----
+    ```css
+    span {
+      display: block;
+    }
+    ```
+  * To make a block element act like inline:
 
-### **How to force one to behave like the other?**
-
-You can use the CSS **`display` property**:
-
-* To make an inline element behave like block:
-
-  ```css
-  span {
-    display: block;
-  }
-  ```
-
-* To make a block element behave like inline:
-
-  ```css
-  div {
-    display: inline;
-  }
-  ```
-
-* Or, you can use `display: inline-block;` → which keeps elements inline **but allows block-like properties** (like width, height, margin, padding).
+    ```css
+    div {
+      display: inline;
+    }
+    ```
+  * You can also use `inline-block`, which keeps the element in the same line but allows block-style properties like width, height, and padding.
 
 ---
+
 

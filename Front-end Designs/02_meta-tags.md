@@ -1,4 +1,16 @@
-What are meta tags and why are they important for websites?
+**Q: What are meta tags and why are they important for websites?**
 
+**Answer:**
+Meta tags are small bits of information we put inside the `<head>` of an HTML page. They tell **browsers and search engines** about the page.
 
-Meta tags are snippets in the <head> of an HTML page that give information about the website to browsers and search engines. They are important for SEO, responsiveness (viewport), correct text rendering (charset), and controlling how pages appear when shared on social media. In short, they improve visibility, user experience, and compatibility.
+They are important because they help with:
+
+* **SEO** – making your site easier to find on search engines.
+* **Responsiveness** – like using `viewport` for mobile devices.
+* **Text rendering** – like `charset` for proper display of characters.
+* **Social media previews** – controlling how your page looks when shared.
+
+In short, meta tags **make your website work better, look right, and get noticed**.
+
+---
+
